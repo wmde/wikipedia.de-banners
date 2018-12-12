@@ -1,8 +1,8 @@
 GlobalBannerSettings = {
 	'goalDonationSum': 8100000,
-	'donations-date-base': '2018-12-10',
-	'donations-collected-base': 5077546,
-	'donators-base': 223773,
+	'donations-date-base': '2018-12-12',
+	'donations-collected-base': 5556217,
+	'donators-base': 240521,
 	'appr-donations-per-minute': 104,
 	'appr-donators-per-minute': 4.5,
 	'impressions-per-day-in-million': 7,
