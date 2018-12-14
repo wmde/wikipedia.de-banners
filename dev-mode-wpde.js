@@ -1,7 +1,7 @@
 // This is a "banner" for previewing banners in development mode on wikipedia.de
 
 function getDevbanner() {
-	    return location.search.match(/devbanner=(\w+)/)[1] || '';
+	    return location.search.match(/devbanner=([-\w]+)/)[1] || '';
 }
 
 $(function(){
