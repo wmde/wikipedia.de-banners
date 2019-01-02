@@ -60,3 +60,17 @@ B18WPDE_04_181214:
       banners:
         - B18WPDE_04_181214_large_var
         - B18WPDE_04_181214_small_var
+
+B18WPDE_ty_190102:
+  description: Thank you banners
+  start: "2019-01-02 19:00:00"
+  end: "2019-01-21 23:59:59"
+  trafficLimit: 100
+  buckets:
+    - name: B18WPDE_ty_190102_ctrl
+      banners:
+        - B18WPDE_ty_190102_ctrl
+    - name: B18WPDE_ty_190102_var
+      banners:
+        - B18WPDE_ty_190102_var
+
