@@ -64,7 +64,7 @@ B18WPDE_04_181214:
 B18WPDE_ty_190102:
   description: Thank you banners
   start: "2019-01-02 19:00:00"
-  end: "2019-01-21 23:59:59"
+  end: "2019-01-16 23:59:59"
   trafficLimit: 100
   buckets:
     - name: B18WPDE_ty_190102_ctrl
