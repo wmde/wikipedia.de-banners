@@ -74,3 +74,12 @@ B18WPDE_ty_190102:
       banners:
         - B18WPDE_ty_190102_var
 
+B19WPDE_00-190523:
+  description: Visitor survey for Wikipedia.de
+  start: "2019-06-06 00:00:00"
+  end: "2019-07-05 00:00:00"
+  trafficLimit: 10
+  buckets:
+    - name: B19WPDE_00-190523_featurebox
+      banners:
+        - B19WPDE_00-190523_featurebox
