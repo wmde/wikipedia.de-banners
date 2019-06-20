@@ -76,7 +76,7 @@ B18WPDE_ty_190102:
 
 B19WPDE_00-190523:
   description: Visitor survey for Wikipedia.de
-  start: "2019-06-20 11:00:00"
+  start: "2019-06-24 11:00:00"
   end: "2019-07-14 00:00:00"
   trafficLimit: 1
   buckets:
