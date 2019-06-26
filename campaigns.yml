@@ -80,6 +80,6 @@ B19WPDE_00-190626:
   end: "2019-07-18 00:00:00"
   trafficLimit: 1
   buckets:
-    - name: B19WPDE_00-190626_featurebox
+    - name: B19WPDE_00-190523_featurebox
       banners:
-        - B19WPDE_00-190626_featurebox
+        - B19WPDE_00-190523_featurebox
