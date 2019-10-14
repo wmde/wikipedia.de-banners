@@ -31,55 +31,12 @@
 #     Naming schema of buckets follows campaign name plus a unique bucket suffix. The usual practice is "_ctrl" for "control" and "_var" for "variant" test groups.
 #   banners: An array of banner file names used for sequencing. First banner is shown only for the very first user impression. Last banner is shown until impression limit is reached
 
-B18WPDE_03_181206:
-  description: Third Banners for 2018 wikipedia.de banner campaign
-  start: "2018-12-06 00:00:00"
-  end: "2018-12-14 00:00:00"
+B18WPDE_01_191111_ctrl:
+  description: First Banners for 2018 wikipedia.de banner campaign
+  start: "2019-11-11 11:11:11"
+  end: "2019-12-31 23:59:59"
   trafficLimit: 100
   buckets:
-    - name: B18WPDE_03_181206_ctrl
+    - name: B18WPDE_01_191111_ctrl.js
       banners:
-        - B18WPDE_03_181206-fixed_large_ctrl
-        - B18WPDE_03_181206-fixed_small_ctrl
-    - name: B18WPDE_03_181206_var
-      banners:
-        - B18WPDE_03_181206-fixed_large_var
-        - B18WPDE_03_181206-fixed_small_var
-
-B18WPDE_04_181214:
-  description: Fourth Banners for 2018 wikipedia.de banner campaign
-  start: "2018-12-14 00:00:00"
-  end: "2018-12-28 20:00:00"
-  trafficLimit: 100
-  buckets:
-    - name: B18WPDE_04_181214_ctrl
-      banners:
-        - B18WPDE_04_181214_large_ctrl
-        - B18WPDE_04_181214_small_ctrl
-    - name: B18WPDE_04_181214_var
-      banners:
-        - B18WPDE_04_181214_large_var
-        - B18WPDE_04_181214_small_var
-
-B18WPDE_ty_190102:
-  description: Thank you banners
-  start: "2019-01-02 19:00:00"
-  end: "2019-01-16 23:59:59"
-  trafficLimit: 100
-  buckets:
-    - name: B18WPDE_ty_190102_ctrl
-      banners:
-        - B18WPDE_ty_190102_ctrl
-    - name: B18WPDE_ty_190102_var
-      banners:
-        - B18WPDE_ty_190102_var
-
-B19WPDE_00-190626:
-  description: Visitor survey for Wikipedia.de
-  start: "2019-06-26 11:00:00"
-  end: "2019-07-09 18:00:00"
-  trafficLimit: 1
-  buckets:
-    - name: B19WPDE_00-190523_featurebox
-      banners:
-        - B19WPDE_00-190523_featurebox
+        - B18WPDE_01-191111_ctrl
