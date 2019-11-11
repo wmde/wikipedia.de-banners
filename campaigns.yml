@@ -31,15 +31,15 @@
 #     Naming schema of buckets follows campaign name plus a unique bucket suffix. The usual practice is "_ctrl" for "control" and "_var" for "variant" test groups.
 #   banners: An array of banner file names used for sequencing. First banner is shown only for the very first user impression. Last banner is shown until impression limit is reached
 
-B19WPDE_01_191111_ctrl:
+B19WPDE_01_191111:
   description: First Banners for 2019 wikipedia.de banner campaign
   start: "2019-11-11 11:11:11"
   end: "2019-12-31 23:59:59"
   trafficLimit: 100
   buckets:
-    - name: B19WPDE_01_191111_ctrl
+    - name: B19WPDE_01_191111_2_ctrl
       banners:
-        - B19WPDE_01-191111_ctrl
-    - name: B19WPDE_01-191111_var
+        - B19WPDE_01-191111_2_ctrl
+    - name: B19WPDE_01-191111_2_var
       banners:
-        - B19WPDE_01-191111_var
+        - B19WPDE_01-191111_2_var
