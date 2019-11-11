@@ -33,7 +33,7 @@
 
 B19WPDE_01_191111:
   description: First Banners for 2019 wikipedia.de banner campaign
-  start: "2019-11-11 11:11:11"
+  start: "2019-11-11 18:20:00"
   end: "2019-12-31 23:59:59"
   trafficLimit: 100
   buckets:
