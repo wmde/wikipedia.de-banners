@@ -47,7 +47,7 @@ B19WPDE_01_191111:
 B19WPDE_02_191129:
   description: Test 02 banner for the 2019 wikipedia.de fundraising campaign
   start: "2019-11-29 15:45:00"
-  end: "2019-12-31 23:59:59"
+  end: "2019-12-13 11:00:00"
   trafficLimit: 100
   buckets:
     - name: B19WPDE_02_191129_ctrl
@@ -56,4 +56,17 @@ B19WPDE_02_191129:
     - name: B19WPDE_02-191129_var
       banners:
         - B19WPDE_02-191129_var
+
+B19WPDE_03_191213:
+  description: Test 03 banner for the 2019 wikipedia.de fundraising campaign
+  start: "2019-12-13 11:00:00"
+  end: "2019-12-31 23:59:59"
+  trafficLimit: 100
+  buckets:
+    - name: B19WPDE_03_191213_ctrl
+      banners:
+        - B19WPDE_03-191213_ctrl
+    - name: B19WPDE_03-191213_var
+      banners:
+        - B19WPDE_03-191213_var
 
