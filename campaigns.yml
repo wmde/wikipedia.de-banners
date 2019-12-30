@@ -70,3 +70,16 @@ B19WPDE_03_191213:
       banners:
         - B19WPDE_03-191213_var
 
+B19WPDE_ty_200101:
+  description: Thank you campaign
+  start: "2020-01-01 00:00:00"
+  end: "2020-01-24 23:59:59"
+  trafficLimit: 100
+  buckets:
+    - name: B19WPDE_ty01_200101_ctrl
+      banners:
+        - B19WPDE_ty01_200101_ctrl
+    - name: B19WPDE_ty01_200101_var
+      banners:
+        - B19WPDE_ty01_200101_var
+
