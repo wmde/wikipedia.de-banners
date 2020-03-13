@@ -88,6 +88,7 @@ B20WPDE_test_bruce:
     start: "2020-03-01 00:00:00"
     end: "2020-04-01 00:00:00"
     trafficLimit: 100
+    category: fundraising
     buckets:
         - name: B20WPDE_test_bruce_ctrl
           banners:
