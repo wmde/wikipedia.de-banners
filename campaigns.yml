@@ -83,3 +83,12 @@ B19WPDE_ty_200101:
       banners:
         - B19WPDE_ty01_200101_var
 
+B20WPDE_test_bruce:
+    description: Test bruce suppressing banner with close cookie
+    start: "2020-03-01 00:00:00"
+    end: "2020-04-01 00:00:00"
+    trafficLimit: 100
+    buckets:
+        - name: B20WPDE_test_bruce_ctrl
+          banners:
+              - B20WPDE_test_bruce_ctrl
