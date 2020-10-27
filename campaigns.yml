@@ -97,3 +97,17 @@ B20WPDE_test_bruce:
         - name: B20WPDE_test_bruce_ctrl
           banners:
               - B20WPDE_test_bruce_ctrl
+
+B20WPDE_mob01_201103:
+  description: Mobile Test 01 banner for the 2020 wikipedia.de fundraising campaign
+  start: "2020-11-03 11:00:00"
+  end: "2020-12-31 23:59:59"
+  trafficLimit: 100
+  maxDisplayWidth: 600
+  buckets:
+    - name: B20WPDE_mob01-201103_ctrl
+      banners:
+        - B20WPDE_mob01-201103_ctrl
+    - name: B20WPDE_mob01-201103_var
+      banners:
+        - B20WPDE_mob01-201103_var
