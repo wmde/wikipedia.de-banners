@@ -111,3 +111,17 @@ B20WPDE_mob01_201103:
     - name: B20WPDE_mob01-201103_var
       banners:
         - B20WPDE_mob01-201103_var
+
+B20WPDE_01_201103:
+  description: Test 01 banner for the 2020 wikipedia.de fundraising campaign
+  start: "2020-11-03 11:00:00"
+  end: "2020-12-31 23:59:59"
+  trafficLimit: 100
+  minDisplayWidth: 600
+  buckets:
+    - name: B20WPDE_01-201103_ctrl
+      banners:
+        - B20WPDE_01-201103_ctrl
+    - name: B20WPDE_01-201103_var
+      banners:
+        - B20WPDE_01-201103_var
