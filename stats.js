@@ -8,6 +8,6 @@ GlobalBannerSettings = {
 	'campaign-start-date': '2020-11-03',
 	'campaign-end-date': '2020-12-31',
 	'banner-close-track-ratio': 1,
-	'goalDonationSum': 9200000,
+	'goalDonationSum': 8700000,
 	'numberOfMembers': 73832
 };
