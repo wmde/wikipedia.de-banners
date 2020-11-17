@@ -35,74 +35,12 @@
 #     Naming schema of buckets follows campaign name plus a unique bucket suffix. The usual practice is "_ctrl" for "control" and "_var" for "variant" test groups.
 #   banners: An array of banner file names used for sequencing. First banner is shown only for the very first user impression. Last banner is shown until impression limit is reached
 
-B19WPDE_01_191111:
-  description: First Banners for 2019 wikipedia.de banner campaign
-  start: "2019-11-11 18:20:00"
-  end: "2019-11-29 15:45:00"
-  trafficLimit: 100
-  buckets:
-    - name: B19WPDE_01_191111_2_ctrl
-      banners:
-        - B19WPDE_01-191111_2_ctrl
-    - name: B19WPDE_01-191111_2_var
-      banners:
-        - B19WPDE_01-191111_2_var
-  
-B19WPDE_02_191129:
-  description: Test 02 banner for the 2019 wikipedia.de fundraising campaign
-  start: "2019-11-29 15:45:00"
-  end: "2019-12-13 11:00:00"
-  trafficLimit: 100
-  buckets:
-    - name: B19WPDE_02_191129_ctrl
-      banners:
-        - B19WPDE_02-191129_ctrl
-    - name: B19WPDE_02-191129_var
-      banners:
-        - B19WPDE_02-191129_var
-
-B19WPDE_03_191213:
-  description: Test 03 banner for the 2019 wikipedia.de fundraising campaign
-  start: "2019-12-13 11:00:00"
-  end: "2019-12-24 23:59:59"
-  trafficLimit: 100
-  buckets:
-    - name: B19WPDE_03_191213_ctrl
-      banners:
-        - B19WPDE_03-191213_ctrl
-    - name: B19WPDE_03-191213_var
-      banners:
-        - B19WPDE_03-191213_var
-
-B19WPDE_ty_200101:
-  description: Thank you campaign
-  start: "2020-01-01 00:00:00"
-  end: "2020-01-20 09:00:00"
-  trafficLimit: 100
-  buckets:
-    - name: B19WPDE_ty01_200101_ctrl
-      banners:
-        - B19WPDE_ty01_200101_ctrl
-    - name: B19WPDE_ty01_200101_var
-      banners:
-        - B19WPDE_ty01_200101_var
-
-B20WPDE_test_bruce:
-    description: Test bruce suppressing banner with close cookie
-    start: "2020-03-01 00:00:00"
-    end: "2020-04-01 00:00:00"
-    trafficLimit: 100
-    category: fundraising
-    buckets:
-        - name: B20WPDE_test_bruce_ctrl
-          banners:
-              - B20WPDE_test_bruce_ctrl
-
 B20WPDE_mob01_201104:
   description: Mobile Test 01 banner for the 2020 wikipedia.de fundraising campaign
   start: "2020-11-04 14:00:00"
   end: "2020-12-31 23:59:59"
   trafficLimit: 100
+  category: fundraising
   maxDisplayWidth: 600
   buckets:
     - name: B20WPDE_mob01-201104_ctrl
@@ -117,6 +55,7 @@ B20WPDE_01-3_201104:
   start: "2020-11-09 06:00:00"
   end: "2020-12-31 23:59:59"
   trafficLimit: 100
+  category: fundraising
   minDisplayWidth: 601
   buckets:
     - name: B20WPDE_01-3-201109_ctrl
