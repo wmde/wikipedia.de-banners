@@ -1,7 +1,7 @@
 GlobalBannerSettings = {
-	'donations-date-base': '2020-11-20',
-	'donations-collected-base': 4100000,
-	'donators-base': 174000,
+	'donations-date-base': '2020-11-21',
+	'donations-collected-base': 4300000,
+	'donators-base': 182702,
 	'appr-donations-per-minute': 100,
 	'appr-donators-per-minute': 5,
 	'impressions-per-day-in-million': 7,
