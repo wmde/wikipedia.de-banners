@@ -79,3 +79,18 @@ B20WPDE_02_201127:
     - name: B20WPDE_02-201127_var
       banners:
         - B20WPDE_02-201127_var
+
+
+B20WPDE_ty_201222:
+  description: Thank You Banner with member benefits https://phabricator.wikimedia.org/T270067
+  start: "2020-12-22 12:00:00"
+  end: "2021-01-08 23:59:59"
+  trafficLimit: 100
+  category: thankyou
+  buckets:
+    - name: B20WPDE_ty01_201222_ctrl
+      banners:
+        - B20WPDE_ty01_201222_ctrl
+    - name: B20WPDE_ty01_201222_var
+      banners:
+        - B20WPDE_ty01_201222_var
