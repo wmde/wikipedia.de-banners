@@ -82,7 +82,7 @@ B20WPDE_02_201127:
 
 B20WPDE_ty_201222:
   description: Thank You Banner with member benefits https://phabricator.wikimedia.org/T270067
-  start: "2020-12-22 12:00:00"
+  start: "2020-12-24 12:00:00"
   end: "2021-01-08 23:59:59"
   trafficLimit: 100
   category: thankyou
@@ -97,7 +97,7 @@ B20WPDE_ty_201222:
 
 B20WPDE_ty_mob_201222:
   description: Mobile Thank You Banner with member benefits https://phabricator.wikimedia.org/T270067
-  start: "2020-12-22 12:00:00"
+  start: "2020-12-24 12:00:00"
   end: "2021-01-08 23:59:59"
   trafficLimit: 100
   category: thankyou
