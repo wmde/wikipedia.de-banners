@@ -80,13 +80,13 @@ B20WPDE_02_201127:
       banners:
         - B20WPDE_02-201127_var
 
-
 B20WPDE_ty_201222:
   description: Thank You Banner with member benefits https://phabricator.wikimedia.org/T270067
   start: "2020-12-22 12:00:00"
   end: "2021-01-08 23:59:59"
   trafficLimit: 100
   category: thankyou
+  minDisplayWidth: 601
   buckets:
     - name: B20WPDE_ty01_201222_ctrl
       banners:
@@ -95,6 +95,21 @@ B20WPDE_ty_201222:
       banners:
         - B20WPDE_ty01_201222_var
 
+B20WPDE_ty_mob_201222:
+  description: Mobile Thank You Banner with member benefits https://phabricator.wikimedia.org/T270067
+  start: "2020-12-22 12:00:00"
+  end: "2021-01-08 23:59:59"
+  trafficLimit: 100
+  category: thankyou
+  maxDisplayWidth: 600
+  buckets:
+    - name: B20WPDE_ty01_mob_201222_ctrl
+      banners:
+        - B20WPDE_ty01_mob_201222_ctrl
+    - name: B20WPDE_ty01_mob_201222_var
+      banners:
+        - B20WPDE_ty01_mob_201222_var
+
 # please change dates/times value for activation
 B20WPDE_ty_ba_201222:
   description: Thank You BACKUP Banner with member benefits https://phabricator.wikimedia.org/T270067
@@ -102,6 +117,7 @@ B20WPDE_ty_ba_201222:
   end: "2021-01-09 23:59:59"
   trafficLimit: 100
   category: thankyou
+  minDisplayWidth: 601
   buckets:
     - name: B20WPDE_ty01_ba_201222_ctrl
       banners:
@@ -109,3 +125,20 @@ B20WPDE_ty_ba_201222:
     - name: B20WPDE_ty01_ba_201222_var
       banners:
         - B20WPDE_ty01_ba_201222_var
+
+# please change dates/times value for activation
+B20WPDE_ty_ba_mob_201222:
+  description: Mobile Thank You BACKUP Banner with member benefits https://phabricator.wikimedia.org/T270067
+  start: "2021-01-09 23:59:58"
+  end: "2021-01-09 23:59:59"
+  trafficLimit: 100
+  category: thankyou
+  maxDisplayWidth: 600
+  buckets:
+    - name: B20WPDE_ty01_ba_mob_201222_ctrl
+      banners:
+        - B20WPDE_ty01_ba_mob_201222_ctrl
+    - name: B20WPDE_ty01_ba_mob_201222_var
+      banners:
+        - B20WPDE_ty01_ba_mob_201222_var
+
