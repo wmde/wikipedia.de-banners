@@ -95,11 +95,11 @@ B20WPDE_ty_201222:
       banners:
         - B20WPDE_ty01_201222_var
 
-# please change start value for activation
+# please change dates/times value for activation
 B20WPDE_ty_ba_201222:
   description: Thank You BACKUP Banner with member benefits https://phabricator.wikimedia.org/T270067
-  start: "2021-01-08 23:59:58"
-  end: "2021-01-08 23:59:59"
+  start: "2021-01-09 23:59:58"
+  end: "2021-01-09 23:59:59"
   trafficLimit: 100
   category: thankyou
   buckets:
