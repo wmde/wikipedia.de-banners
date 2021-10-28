@@ -1,13 +1,13 @@
 GlobalBannerSettings = {
-	'donations-date-base': '2020-12-14',
-	'donations-collected-base': 8600000,
-	'donators-base': 368308,
-	'appr-donations-per-minute': 0,
-	'appr-donators-per-minute': 4,
-	'impressions-per-day-in-million': 7,
-	'campaign-start-date': '2020-11-04',
-	'campaign-end-date': '2020-12-31',
+	'donations-date-base': '2021-10-28',
+	'donations-collected-base': 100000,
+	'donators-base': 1000,
+	'appr-donations-per-minute': 100,
+	'appr-donators-per-minute': 5,
+	'impressions-per-day-in-million': 8,
+	'campaign-start-date': '2021-10-28',
+	'campaign-end-date': '2021-12-31',
 	'banner-close-track-ratio': 1,
-	'goalDonationSum': 8700000,
+	'goalDonationSum': 9200000,
 	'numberOfMembers': 73832
 };
