@@ -83,7 +83,7 @@ B20WPDE_02_201127:
 B21WPDE_01_211103:
   description: Test 01 banner for the 2021 wikipedia.de fundraising campaign
   start: "2021-11-03 15:00:00"
-  end: "2020-12-31 23:59:59"
+  end: "2021-12-31 23:59:59"
   trafficLimit: 100
   category: fundraising
   minDisplayWidth: 601
