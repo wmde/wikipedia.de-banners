@@ -98,7 +98,7 @@ B21WPDE_01_211103:
 B21WPDE_02_211119:
   description: Test 02 banner for the 2021 wikipedia.de fundraising campaign
   start: "2021-11-19 17:30:00"
-  end: "2021-12-31 23:59:59"
+  end: "2021-12-11 17:29:59"
   trafficLimit: 100
   category: fundraising
   minDisplayWidth: 601
@@ -109,6 +109,21 @@ B21WPDE_02_211119:
     - name: B21WPDE_02-211119_var
       banners:
         - B21WPDE_02-211119_var
+
+B21WPDE_03_211211:
+  description: Test 03 banner for the 2021 wikipedia.de fundraising campaign
+  start: "2021-12-11 17:30:00"
+  end: "2021-12-31 23:59:59"
+  trafficLimit: 100
+  category: fundraising
+  minDisplayWidth: 601
+  buckets:
+    - name: B21WPDE_03-211211_ctrl
+      banners:
+        - B21WPDE_03-211211_ctrl
+    - name: B21WPDE_03-211211_var
+      banners:
+        - B21WPDE_03-211211_var
 
 B21WPDE_mob01_211103:
   description: Mobile Test 01 banner for the 2021 wikipedia.de fundraising campaign
