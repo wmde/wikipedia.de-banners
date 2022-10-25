@@ -9,5 +9,6 @@ GlobalBannerSettings = {
 	'campaign-end-date': '2022-12-31',
 	'banner-close-track-ratio': 1,
 	'goalDonationSum': 9200000,
-	'numberOfMembers': 73832
+	'numberOfMembers': 73832,
+	'is-late-progress': false
 };
