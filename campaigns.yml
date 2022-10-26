@@ -58,12 +58,12 @@ B22WPDE_mob01_211103:
   category: fundraising
   maxDisplayWidth: 600
   buckets:
-    - name: B22WPDE_mob01-211103_ctrl
+    - name: B22WPDE_mob01_ctrl
       banners:
-        - B22WPDE_mob01-211103_ctrl
-    - name: B22WPDE_mob01-211103_var
+        - B22WPDE_mob01_ctrl
+    - name: B22WPDE_mob01_var
       banners:
-        - B22WPDE_mob01-211103_var
+        - B22WPDE_mob01_var
 
 B21WPDE_03_211213:
   description: Test 03 banner for the 2021 wikipedia.de fundraising campaign
