@@ -10,5 +10,12 @@ GlobalBannerSettings = {
 	'banner-close-track-ratio': 1,
 	'goalDonationSum': 9400000,
 	'numberOfMembers': 73832,
-	'is-late-progress': false
+	'is-late-progress': false,
+	'use-of-funds-figures': {
+		'software': 18,
+		'international': 37,
+		'communities': 14,
+		'society': 11,
+		'operative': 20,
+	}
 };
