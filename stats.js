@@ -13,10 +13,10 @@ GlobalBannerSettings = {
 	'is-late-progress': false,
 	'use-of-funds-provisional': true,
 	'use-of-funds-figures': {
-		'software': 18,
-		'international': 37,
+		'software': 23,
+		'international': 33,
 		'communities': 14,
-		'society': 11,
-		'operative': 20,
+		'society': 8,
+		'operative': 22,
 	}
 };
