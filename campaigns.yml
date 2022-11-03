@@ -37,7 +37,7 @@
 
 B22WPDE_01_211103:
   description: Test 01 banner for the 2022 wikipedia.de fundraising campaign
-  start: "2022-11-03 09:00:00"
+  start: "2022-11-03 09:30:00"
   end: "2022-12-31 23:59:59"
   trafficLimit: 100
   category: fundraising
@@ -52,7 +52,7 @@ B22WPDE_01_211103:
 
 B22WPDE_mob01_211103:
   description: Mobile Test 01 banner for the 2022 wikipedia.de fundraising campaign
-  start: "2022-11-03 09:00:00"
+  start: "2022-11-03 09:30:00"
   end: "2022-12-29 23:59:59"
   trafficLimit: 100
   category: fundraising
