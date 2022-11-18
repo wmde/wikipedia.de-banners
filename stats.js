@@ -4,7 +4,7 @@ GlobalBannerSettings = {
 	'donators-base': 46851,
 	'appr-donations-per-minute': 110,
 	'appr-donators-per-minute': 4.6,
-	'impressions-per-day-in-million': 7,
+	'impressions-per-day-in-million': 6,
 	'campaign-start-date': '2022-11-03',
 	'campaign-end-date': '2022-12-31',
 	'banner-close-track-ratio': 1,
