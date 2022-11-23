@@ -35,10 +35,25 @@
 #     Naming schema of buckets follows campaign name plus a unique bucket suffix. The usual practice is "_ctrl" for "control" and "_var" for "variant" test groups.
 #   banners: An array of banner file names used for sequencing. First banner is shown only for the very first user impression. Last banner is shown until impression limit is reached
 
+B22WPDE_02_211124:
+  description: Test 02 banner for the 2022 wikipedia.de fundraising campaign
+  start: "2022-11-24 14:00:00"
+  end: "2022-12-31 23:59:59"
+  trafficLimit: 100
+  category: fundraising
+  minDisplayWidth: 601
+  buckets:
+    - name: B22WPDE_02_ctrl
+      banners:
+        - B22WPDE_02_ctrl
+    - name: B22WPDE_02_var
+      banners:
+        - B22WPDE_02_var
+
 B22WPDE_01_211103:
   description: Test 01 banner for the 2022 wikipedia.de fundraising campaign
   start: "2022-11-03 09:00:00"
-  end: "2022-12-31 23:59:59"
+  end: "2022-11-24 13:59:59"
   trafficLimit: 100
   category: fundraising
   minDisplayWidth: 601
