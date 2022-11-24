@@ -11,7 +11,7 @@ GlobalBannerSettings = {
 	'goalDonationSum': 9400000,
 	'numberOfMembers': 73832,
 	'is-late-progress': false,
-	'use-of-funds-provisional': true,
+	'use-of-funds-provisional': false,
 	'use-of-funds-figures': {
 		'software': 23,
 		'international': 33,
