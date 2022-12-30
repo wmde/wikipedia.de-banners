@@ -68,7 +68,7 @@ B22WPDE_ty_mobile:
 B22WPDE_02_211124:
   description: Test 02 banner for the 2022 wikipedia.de fundraising campaign
   start: "2022-11-24 15:00:00"
-  end: "2022-12-31 23:59:59"
+  end: "2022-12-31 11:10:00"
   trafficLimit: 100
   category: fundraising
   minDisplayWidth: 601
