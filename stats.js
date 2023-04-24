@@ -1,22 +1,30 @@
+campaignParameters = {
+	campaignProjection: {
+		donationTarget: 900000,
+    	updatedAt: '2023-04-19',
+		donationSumBase: 3700000,
+		donationCountBase: 157000,
+		donationAmountPerMinute: 100,
+		donationCountPerMinute: 5,
+		averageAmountPerDonation: 25.1
+	},
+    millionImpressionsPerDay: 7,
+    startDate: '2023-11-04',
+    endDate: '2023-12-31',
+    numberOfMembers: 73832,
+};
+
+// Legacy values to display pre-2023 banners, delete at some point
 GlobalBannerSettings = {
-	'donations-date-base': '2022-11-07',
-	'donations-collected-base': 1350000,
-	'donators-base': 360000,
-	'appr-donations-per-minute': 103.198,
-	'appr-donators-per-minute': 4.017,
-	'impressions-per-day-in-million': 6,
-	'campaign-start-date': '2022-11-03',
-	'campaign-end-date': '2022-12-31',
+	'donations-date-base': campaignParameters.campaignProjection.updatedAt,
+	'donations-collected-base': campaignParameters.campaignProjection.donationSumBase,
+	'donators-base': campaignParameters.campaignProjection.donationCountBase,
+	'appr-donations-per-minute': campaignParameters.campaignProjection.donationAmountPerMinute,
+	'appr-donators-per-minute': campaignParameters.campaignProjection.donationCountPerMinute,
+	'impressions-per-day-in-million': campaignParameters.millionImpressionsPerDay,
+	'campaign-start-date': campaignParameters.startDate,
+	'campaign-end-date': campaignParameters.endDate,
 	'banner-close-track-ratio': 1,
-	'goalDonationSum': 9400000,
-	'numberOfMembers': 73832,
-	'is-late-progress': true,
-	'use-of-funds-provisional': false,
-	'use-of-funds-figures': {
-		'software': 23,
-		'international': 33,
-		'communities': 14,
-		'society': 8,
-		'operative': 22,
-	}
+	'goalDonationSum': campaignParameters.campaignProjection.donationTarget,
+	'numberOfMembers': campaignParameters.numberOfMembers
 };
