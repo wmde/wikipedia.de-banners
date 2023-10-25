@@ -43,12 +43,12 @@ C23_WPDE_Desktop_01:
   category: fundraising
   minDisplayWidth: 601
   buckets:
-    - name: B23_WPDE_01_ctrl
+    - name: B23_WPDE_Desktop_01_ctrl
       banners:
-        - B23_WPDE_01_ctrl
-    - name: B23_WPDE_01_var
+        - B23_WPDE_Desktop_01_ctrl
+    - name: B23_WPDE_Desktop_01_var
       banners:
-        - B23_WPDE_01_var
+        - B23_WPDE_Desktop_01_var
 
 B22WPDE_mob01_211103:
   description: Mobile Test 01 banner for the 2022 wikipedia.de fundraising campaign
