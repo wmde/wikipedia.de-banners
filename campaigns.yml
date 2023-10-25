@@ -50,17 +50,17 @@ C23_WPDE_Desktop_01:
       banners:
         - B23_WPDE_Desktop_01_var
 
-B22WPDE_mob01_211103:
-  description: Mobile Test 01 banner for the 2022 wikipedia.de fundraising campaign
-  start: "2022-11-03 09:00:00"
-  end: "2022-12-29 23:59:59"
+C23_WPDE_Mobile_01:
+  description: Mobile Test 01 banner for the 2023 wikipedia.de fundraising campaign
+  start: "2023-10-30 09:00:00"
+  end: "2023-12-29 23:59:59"
   trafficLimit: 100
   category: fundraising
   maxDisplayWidth: 600
   buckets:
-    - name: B22WPDE_mob01_ctrl
+    - name: B23_WPDE_Mobile_01_ctrl
       banners:
-        - B22WPDE_mob01_ctrl
-    - name: B22WPDE_mob01_var
+        - B23_WPDE_Mobile_01_ctrl
+    - name: B23_WPDE_Mobile_01_var
       banners:
-        - B22WPDE_mob01_var
+        - B23_WPDE_Mobile_01_var
