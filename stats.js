@@ -1,7 +1,7 @@
 campaignParameters = {
 	campaignProjection: {
-		donationTarget: 9000000,
-    	updatedAt: '2023-10-17',
+		donationTarget: 9700000,
+    	updatedAt: '2023-10-30',
 		donationSumBase: 0,
 		donationCountBase: 0,
 		donationAmountPerMinute: 100,
