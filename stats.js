@@ -2,13 +2,13 @@ campaignParameters = {
 	campaignProjection: {
 		donationTarget: 9700000,
     	updatedAt: '2023-10-30',
-		donationSumBase: 0,
-		donationCountBase: 0,
-		donationAmountPerMinute: 100,
-		donationCountPerMinute: 5,
-		averageAmountPerDonation: 25.1
+		donationSumBase: 607000,
+		donationCountBase: 17800,
+		donationAmountPerMinute: 103.198,
+		donationCountPerMinute: 4.017,
+		averageAmountPerDonation: 22.25
 	},
-    millionImpressionsPerDay: 7,
+    millionImpressionsPerDay: 0,
     startDate: '2023-10-30',
     endDate: '2023-12-31',
     numberOfMembers: 73832,
