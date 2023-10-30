@@ -52,7 +52,7 @@ C23_WPDE_Desktop_01:
 
 C23_WPDE_Mobile_01:
   description: Mobile Test 01 banner for the 2023 wikipedia.de fundraising campaign
-  start: "2023-12-31 09:00:00"
+  start: "2023-10-30 12:00:00"
   end: "2023-12-31 23:59:59"
   trafficLimit: 100
   category: fundraising
