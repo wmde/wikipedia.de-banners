@@ -8,7 +8,7 @@ campaignParameters = {
 		donationCountPerMinute: 4.017,
 		averageAmountPerDonation: 22.25
 	},
-    millionImpressionsPerDay: 0,
+    millionImpressionsPerDay: 7,
     startDate: '2023-10-30',
     endDate: '2023-12-31',
     numberOfMembers: 73832,
