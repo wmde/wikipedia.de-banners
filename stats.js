@@ -12,7 +12,11 @@ campaignParameters = {
     startDate: '2023-10-30',
     endDate: '2023-12-31',
     numberOfMembers: 73832,
-	isLateProgress: false
+	isLateProgress: false,
+	thankYouCampaign: {
+		numberOfDonors: 345123,
+		progressBarPercentage: 80
+	}
 };
 
 // Legacy values to display pre-2023 banners, delete at some point
