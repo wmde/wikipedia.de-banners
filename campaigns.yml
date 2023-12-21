@@ -79,3 +79,33 @@ C23_WPDE_Mobile_01:
     - name: B23_WPDE_Mobile_01_var
       banners:
         - B23_WPDE_Mobile_01_var
+
+C23_WPDE_Desktop_DE_ty:
+  description: Desktop thank you banner for the 2023 wikipedia.de fundraising campaign
+  start: "2024-01-01 10:00:00"
+  end: "2024-01-15 10:00:00"
+  trafficLimit: 100
+  category: fundraising
+  maxDisplayWidth: 600
+  buckets:
+    - name: B23_WPDE_Desktop_DE_ty_ctrl
+      banners:
+        - B23_WPDE_Desktop_DE_ty_ctrl
+    - name: B23_WPDE_Desktop_DE_ty_var
+      banners:
+        - B23_WPDE_Desktop_DE_ty_var
+
+C23_WPDE_Mobile_DE_ty:
+  description: Mobile thank you banner for the 2023 wikipedia.de fundraising campaign
+  start: "2024-01-01 10:00:00"
+  end: "2024-01-15 10:00:00"
+  trafficLimit: 100
+  category: fundraising
+  maxDisplayWidth: 600
+  buckets:
+    - name: B23_WPDE_Mobile_DE_ty_ctrl
+      banners:
+        - B23_WPDE_Mobile_DE_ty_ctrl
+    - name: B23_WPDE_Mobile_DE_ty_var
+      banners:
+        - B23_WPDE_Mobile_DE_ty_var
