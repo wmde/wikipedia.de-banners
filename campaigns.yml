@@ -86,7 +86,7 @@ C23_WPDE_Desktop_DE_ty:
   end: "2024-01-15 10:00:00"
   trafficLimit: 100
   category: fundraising
-  maxDisplayWidth: 600
+  minDisplayWidth: 601
   buckets:
     - name: B23_WPDE_Desktop_DE_ty_ctrl
       banners:
