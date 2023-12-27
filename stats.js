@@ -12,7 +12,7 @@ campaignParameters = {
     startDate: '2023-10-30',
     endDate: '2023-12-31',
     numberOfMembers: 73832,
-	isLateProgress: false,
+	isLateProgress: true,
 	thankYouCampaign: {
 		numberOfDonors: 345123,
 		progressBarPercentage: 80
