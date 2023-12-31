@@ -14,8 +14,8 @@ campaignParameters = {
     numberOfMembers: 73832,
 	isLateProgress: true,
 	thankYouCampaign: {
-		numberOfDonors: 345123,
-		progressBarPercentage: 80
+		numberOfDonors: 350000,
+		progressBarPercentage: 100
 	}
 };
 
