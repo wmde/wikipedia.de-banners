@@ -65,6 +65,21 @@ C23_WPDE_Desktop_02:
       banners:
         - B23_WPDE_Desktop_02_var
 
+C24_WPDE_Desktop_01:
+  description: Test 01 banner for the 2024 wikipedia.de fundraising campaign
+  start: "2024-10-28 16:00:00"
+  end: "2024-12-06 15:14:59"
+  trafficLimit: 100
+  category: fundraising
+  minDisplayWidth: 601
+  buckets:
+    - name: B24_WPDE_Desktop_01_ctrl
+      banners:
+        - B24_WPDE_Desktop_01_ctrl
+    - name: B24_WPDE_Desktop_01_var
+      banners:
+        - B24_WPDE_Desktop_01_var
+
 C23_WPDE_Mobile_01:
   description: Mobile Test 01 banner for the 2023 wikipedia.de fundraising campaign
   start: "2023-10-30 12:00:00"
