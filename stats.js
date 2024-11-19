@@ -13,6 +13,7 @@ campaignParameters = {
 	endDate: '2024-12-31',
 	numberOfMembers: 73832,
 	isLateProgress: false,
+	urgencyMessageDaysLeft: 10,
 	thankYouCampaign: {
 		numberOfDonors: 350000,
 		progressBarPercentage: 100
