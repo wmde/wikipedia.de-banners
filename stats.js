@@ -4,8 +4,8 @@ campaignParameters = {
 		updatedAt: '2024-11-11',
 		donationSumBase: 2_931_804,
 		donationCountBase: 108_962,
-		donationAmountPerMinute: 85.447,
-		donationCountPerMinute: 3.258,
+		donationAmountPerMinute: 88.959,
+		donationCountPerMinute: 3.352,
 		averageAmountPerDonation: 22.49
 	},
 	millionImpressionsPerDay: 5,
