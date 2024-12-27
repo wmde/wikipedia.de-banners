@@ -17,6 +17,7 @@ campaignParameters = {
 	urgencyMessageDaysLeft: 10,
 	thankYouCampaign: {
 		numberOfDonors: 350000,
+		numberOfMembers: 111000,
 		progressBarPercentage: 100
 	}
 };
