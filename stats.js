@@ -16,8 +16,8 @@ campaignParameters = {
 	dramaTextIsVisible: false,
 	urgencyMessageDaysLeft: 10,
 	thankYouCampaign: {
-		numberOfDonors: 350000,
-		numberOfMembers: 111000,
+		numberOfDonors: 317000,
+		numberOfMembers: 111500,
 		progressBarPercentage: 100
 	}
 };
