@@ -14,11 +14,11 @@ campaignParameters = {
 	numberOfMembers: 73832,
 	isLateProgress: true,
 	dramaTextIsVisible: false,
-	urgencyMessageDaysLeft: 10,
-	thankYouCampaign: {
-		numberOfDonors: 317000,
-		numberOfMembers: 111500,
-		progressBarPercentage: 100
-	}
+	urgencyMessageDaysLeft: 10
 };
 
+thankYouCampaignParameters = {
+	numberOfDonors: 317000,
+	numberOfMembers: 111500,
+	progressBarPercentage: 100
+};
