@@ -139,3 +139,18 @@ C24_WPDE_Mobile_DE_ty:
     - name: B24_WPDE_Mobile_DE_ty_var
       banners:
         - B24_WPDE_Mobile_DE_ty_var
+
+C25_WPDE_Desktop_01:
+  description: Test 01 banner for the 2025 wikipedia.de fundraising campaign, var has interval cheering
+  start: "2025-10-27 16:00:00"
+  end: "2025-12-31 23:59:59"
+  trafficLimit: 100
+  category: fundraising
+  minDisplayWidth: 601
+  buckets:
+    - name: B25_WPDE_Desktop_01_ctrl
+      banners:
+        - B25_WPDE_Desktop_01_ctrl
+    - name: B25_WPDE_Desktop_01_var
+      banners:
+        - B25_WPDE_Desktop_01_var
