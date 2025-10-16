@@ -6,7 +6,7 @@ campaignParameters = {
 		donationCountBase: 108_962,
 		donationAmountPerMinute: 93.164,
 		donationCountPerMinute: 3.089,
-		averageAmountPerDonation: 22.49
+		averageAmountPerDonation: 22.89
 	},
 	millionImpressionsPerDay: 5,
 	startDate: '2024-10-28',
