@@ -154,3 +154,18 @@ C25_WPDE_Desktop_01:
     - name: B25_WPDE_Desktop_01_var
       banners:
         - B25_WPDE_Desktop_01_var
+        
+C25_WPDE_Mobile_01:
+  description: Test 01 banner for the 2025 wikipedia.de fundraising campaign, var has picture of Jimmy Wales
+  start: "2025-10-27 16:00:00"
+  end: "2025-12-31 23:59:59"
+  trafficLimit: 100
+  category: fundraising
+  maxDisplayWidth: 600
+  buckets:
+    - name: B25_WPDE_Mobile_01_ctrl
+      banners:
+        - B25_WPDE_Mobile_01_ctrl
+    - name: B25_WPDE_Mobile_01_var
+      banners:
+        - B25_WPDE_Mobile_01_var
