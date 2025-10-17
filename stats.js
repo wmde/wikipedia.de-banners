@@ -9,10 +9,10 @@ campaignParameters = {
 		averageAmountPerDonation: 22.89
 	},
 	millionImpressionsPerDay: 5,
-	startDate: '2024-10-28',
-	endDate: '2024-12-31',
+	startDate: '2025-10-27',
+	endDate: '2025-12-31',
 	numberOfMembers: 73832,
-	isLateProgress: true,
+	isLateProgress: false,
 	dramaTextIsVisible: false,
 	urgencyMessageDaysLeft: 10
 };
