@@ -12,7 +12,7 @@ campaignParameters = {
 	startDate: '2025-10-27',
 	endDate: '2025-12-31',
 	numberOfMembers: 73832,
-	isLateProgress: false,
+	isLateProgress: true,
 	dramaTextIsVisible: false,
 	urgencyMessageDaysLeft: 10
 };
