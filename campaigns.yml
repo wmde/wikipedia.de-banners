@@ -143,7 +143,7 @@ C24_WPDE_Mobile_DE_ty:
 C25_WPDE_Desktop_01:
   description: Test 01 banner for the 2025 wikipedia.de fundraising campaign, var has interval cheering
   start: "2025-10-27 11:15:00"
-  end: "2025-12-31 23:59:59"
+  end: "2025-12-16 10:00:00"
   trafficLimit: 100
   category: fundraising
   minDisplayWidth: 601
@@ -154,11 +154,11 @@ C25_WPDE_Desktop_01:
     - name: B25_WPDE_Desktop_01_var
       banners:
         - B25_WPDE_Desktop_01_var
-        
+
 C25_WPDE_Mobile_01:
   description: Test 01 banner for the 2025 wikipedia.de fundraising campaign, var has picture of Jimmy Wales
   start: "2025-10-27 11:15:00"
-  end: "2025-12-31 23:59:59"
+  end: "2025-12-16 10:00:00"
   trafficLimit: 100
   category: fundraising
   maxDisplayWidth: 600
