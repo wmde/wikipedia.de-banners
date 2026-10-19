@@ -1,7 +1,7 @@
 campaignParameters = {
 	campaignProjection: {
 		donationTarget: 8_000_000,
-		updatedAt: '2025-12-15',
+		updatedAt: '2026-10-19',
 		donationSumBase: 7_851_902,
 		donationCountBase: 265_517,
 		donationAmountPerMinute: 10.000,
@@ -9,10 +9,10 @@ campaignParameters = {
 		averageAmountPerDonation: 22.89
 	},
 	millionImpressionsPerDay: 5,
-	startDate: '2025-10-27',
-	endDate: '2025-12-31',
+	startDate: '2026-10-27',
+	endDate: '2026-12-31',
 	numberOfMembers: 73832,
-	isLateProgress: true,
+	isLateProgress: false,
 	dramaTextIsVisible: false,
 	urgencyMessageDaysLeft: 10
 };
