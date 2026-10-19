@@ -178,9 +178,9 @@ C26_WPDE_Mobile_01:
   category: fundraising
   maxDisplayWidth: 600
   buckets:
-    - name: B26_WPDE_Mobile_01_ctrl
+    - name: WPDE_FR_2026_Mobile_01
       banners:
-        - B26_WPDE_Mobile_01_ctrl
-    - name: B26_WPDE_Mobile_01_var
+        - WPDE_FR_2026_Mobile_01_ctrl
+    - name: WPDE_FR_2026_Mobile_01
       banners:
-        - B26_WPDE_Mobile_01_var
+        - WPDE_FR_2026_Mobile_01_var
