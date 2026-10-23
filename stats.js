@@ -1,6 +1,6 @@
 campaignParameters = {
 	campaignProjection: {
-		donationTarget: 8_000_000,
+		donationTarget: 8_400_000,
 		updatedAt: '2026-10-22',
 		donationSumBase: 2_851_902,
 		donationCountBase: 265_517,
@@ -8,7 +8,7 @@ campaignParameters = {
 		donationCountPerMinute: 3.000,
 		averageAmountPerDonation: 22.89
 	},
-	millionImpressionsPerDay: 5,
+	millionImpressionsPerDay: 0,
 	startDate: '2026-10-22',
 	endDate: '2026-12-31',
 	numberOfMembers: 73832,
