@@ -1,11 +1,11 @@
 campaignParameters = {
 	campaignProjection: {
 		donationTarget: 8_400_000,
-		updatedAt: '2026-10-26',
-		donationSumBase: 2_851_902,
-		donationCountBase: 265_517,
-		donationAmountPerMinute: 10.000,
-		donationCountPerMinute: 3.000,
+		updatedAt: '2026-10-23',
+		donationSumBase: 1,
+		donationCountBase: 1,
+		donationAmountPerMinute: 58.823,
+		donationCountPerMinute: 19.608,
 		averageAmountPerDonation: 23.97
 	},
 	millionImpressionsPerDay: 0,
