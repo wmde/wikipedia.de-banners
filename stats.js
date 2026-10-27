@@ -4,14 +4,14 @@ campaignParameters = {
 		updatedAt: '2026-10-23',
 		donationSumBase: 1,
 		donationCountBase: 1,
-		donationAmountPerMinute: 58.823,
-		donationCountPerMinute: 19.608,
+		donationAmountPerMinute: 78.681,
+		donationCountPerMinute: 2.446,
 		averageAmountPerDonation: 23.97
 	},
-	millionImpressionsPerDay: 0,
+	millionImpressionsPerDay: 4,
 	startDate: '2026-10-26',
 	endDate: '2026-12-31',
-	numberOfMembers: 73832,
+	numberOfMembers: 75000,
 	isLateProgress: false,
 	dramaTextIsVisible: false,
 	urgencyMessageDaysLeft: 10
